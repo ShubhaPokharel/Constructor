@@ -91,39 +91,59 @@ class Emp{
 //instance variables
 
 int eid;
+
 String ename;
+
 double esal;
+
 public static String company = "pnc";
+
 public static String location = "USA";
+
 
 Emp(int eid,String ename, double esal ){
 
  // assign the local data in the instance data
 
  this.eid = eid;
+ 
  this.ename = ename;
+ 
  this.esal = esal;
+ 
 }
+
  void status(){
+ 
 
    if(esal > 8000){
+   
      System.out.println("Good employee");
     
      System.out.println(eid + " " + ename + " " + esal + " " + Emp.company + " " + Emp.location);
     
    }
+   
    else{
+   
     System.out.println("Very Good employee");
+    
     System.out.println(eid + " " + ename + " " + esal + " " + Emp.company + " " + Emp.location);
+    
    }
+   
   }
+  
   public static void main(String[] args){
+  
     Emp e1 = new Emp(4444, "Shubha", 4444.44,"pnc", "USA");
+    
     e1();
 
     Emp e2 = new Emp(2222, "Sushil", 1295.16, "pnc", "USA");
     e2.status();
   }
+  
  } 
 
    
