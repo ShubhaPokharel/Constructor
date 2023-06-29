@@ -77,7 +77,7 @@ During object creation, initialize the data using Constructors. The data will go
 - Static variales, all objects are stored in one memory.
 
 
-Dont give permisiion to the static variables because all objects will be affected if we change the value.
+Dont give permission to the static variables because all objects will be affected if we change the value.
 
 It is not recommanded to allow modifications to the Static variables.
 
