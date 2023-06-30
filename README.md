@@ -8,7 +8,9 @@
 
    2 - Constructor can not return the value.
 
-   3 - Constructors can take the arguemnts.
+   3 - Constructors can have the arguemnts.
+   
+   4 - Constructors can not have the arguemnts( known as 0 argument Constructor).
 
 
    Example:
