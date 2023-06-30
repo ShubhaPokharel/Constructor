@@ -79,9 +79,10 @@ During object creation, initialize the data using Constructors. The data will go
   4. 'this' keyword represents the current class object.
  
 
-- Instance variables, every object is seperate when memory is created.
+- Each Instance variable object is seperate when memory is created. It is stored in heap memory.
+  
 
-- Static variales, all objects are stored in one memory.
+- Each Static variale objects are stored in one memory.
 
 
 Dont give permission to the static variables because all objects will be affected if we change the value.
