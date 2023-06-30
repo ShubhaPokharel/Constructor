@@ -74,9 +74,9 @@ During object creation, initialize the data using Constructors. The data will go
 
   2. Methods are used to write the logics of the application.
  
-  3. Variables is used to store the data.
+  3. Variables are used to store the data.
  
-  4. this keyword represents the current class object.
+  4. 'this' keyword represents the current class object.
  
 
 - Instance variables, every object is seperate when memory is created.
