@@ -83,7 +83,7 @@ During object creation, initialize the data using Constructors. The data will go
 - Each Instance variable object is seperate when memory is created. It is stored in heap memory.
   
 
-- Each Static variale objects are stored in one memory.
+- Each Static variable objects are stored in one memory.
 
 
 Dont give permission to the static variables because all objects will be affected if we change the value.
