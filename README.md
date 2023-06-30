@@ -157,4 +157,87 @@ Emp(int eid,String ename, double esal ){
   
  } 
 
-   
+
+
+*****************************************************************************************************************************************************
+
+Constructor is a special type of method which is used to initialize the data ( it is similar to a method) . It is used to construct something. It is called with the help of “new” keyword while creating object.
+
+You are not able to set values or arguments when you have a default constructor. 
+
+
+
+Constructors vs Methods
+
+Whenever the object is created, constructors can only be called once. However, methods can be called multiple times.
+ A constructor has no return type like a method.
+
+The compiler will generate a default constructor if we don’t give any constructor. The compiler will not provide a method if we have no methods. 
+
+________________________
+
+
+Constructors are used to assign values to variables whenever the object is created.
+
+In java, Constructors can not be abstract, final or static. 
+
+Constructors can contain statements. Statements are instructions. 
+
+
+Default Constructors are invisible. 
+
+
+“Note: Default constructor provides the default values to the object like 0, null, etc. depending on the type.”
+
+
+If we want to assign our own values in the constructor, it will be parameterized constructor. 
+
+
+A constructor can be declared private ( called private constructor).
+
+
+It is possible to call a constructor from a constructor.
+
+Constructor chaining is when a constructor calls another constructor from the same class.
+
+We can use “this ” keyword to call another constructor. 
+
+
+When you define a constructor, the default constructor is no longer used.
+
+You can use Constructors to initialize objects.
+
+Ex:
+
+public class ConsDemo {
+   public static void main(String args[]) {
+      MyClass t1 = new MyClass();
+      MyClass t2 = new MyClass();
+      System.out.println(t1.num + " " + t2.num);
+   }
+}
+
+
+You can not write the same constructors with the same number of arguments and same data types in the same class. The compilation cannot tell the difference between both of them.
+
+
+A constructor normally initializes but it can also create the object, call a method etc. 
+
+Whenever we make a Constructor private, it cannot be accessible outside of the class.
+
+A Constructor can’t be abstract , static , and final. 
+
+
+“A constructor can be overloaded but can not be overridden.”
+
+Constructor overloading is when we have 2 or more constructors with the same arguments or the same number of arguments but different data types. 
+
+
+The compiler will not generate the default constructer if we already have a constructor.
+
+
+
+
+
+
+
