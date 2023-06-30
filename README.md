@@ -6,7 +6,7 @@
 
    1 - Constructor name and class name must be same.
 
-   2 - Constructor cant return the value.
+   2 - Constructor can not return the value.
 
    3 - Constructors can take the arguemnts.
 
