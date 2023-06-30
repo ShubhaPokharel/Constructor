@@ -63,7 +63,8 @@
 During object creation, initialize the data using Constructors. The data will go in the Constructor arguemnts. But the arguments are local variables. So, we assign the local data into the Instance variables. You can access the Instance variables with in the class.
 
 
-- this keyword represents the current class.
+
+- 'this' keyword, which is used inside the constructor, represents the current class.
 
 
 
