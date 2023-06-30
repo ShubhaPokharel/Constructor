@@ -7,8 +7,9 @@
    1 - Constructor name and class name must be same.
 
    2 - Constructor can not return the value.
+   
 
-   3 - Constructors can have the arguemnts.
+   3 - Constructors can have the arguemnts( known as Parameterized Constructor).
    
    
    4 - Constructors can not have the arguemnts( known as 0 argument Constructor).
