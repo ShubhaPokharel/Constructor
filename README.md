@@ -90,7 +90,8 @@ Dont give permission to the static variables because all objects will be affecte
 
 It is not recommanded to allow modifications to the Static variables.
 
-If we use the final keyword in a variables, no modifications are allowed.
+
+If we use the 'final' keyword in a variable, no modifications are allowed.
 
 
 
@@ -105,9 +106,9 @@ String ename;
 
 double esal;
 
-public static String company = "pnc";
+public static final String company = "pnc";
 
-public static String location = "USA";
+public static final String location = "USA";
 
 
 Emp(int eid,String ename, double esal ){
@@ -147,7 +148,8 @@ Emp(int eid,String ename, double esal ){
   
     Emp e1 = new Emp(4444, "Shubha", 4444.44,"pnc", "USA");
     
-    e1();
+    e1.status();
+    
 
     Emp e2 = new Emp(2222, "Sushil", 1295.16, "pnc", "USA");
     e2.status();
