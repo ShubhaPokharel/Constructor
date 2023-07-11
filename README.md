@@ -235,6 +235,26 @@ Constructor overloading is when we have 2 or more constructors with the same arg
 
 The compiler will not generate the default constructer if we already have a constructor.
 
+______________________________________________________________________________________
+
+## Connstructor Chaining
+
+Constructor chaining is when a Constructor calls another constructor. There can be any numbers of Constructors in constructor chaining. One constructor can only call one constructor but one method can call several methods.
+
+- this() keyword calls another Constructor. 
+
+this() keyword must be the first statement in a Constructor.
+
+We use 'this' keyword when calling the same class variables, same class methods, and same class constructors.
+
+We use 'super' keyword to call the parent class variables, parent class methods and parent class constructors.
+
+super() keyword must also be the first statement 
+
+Inside the consructor, two 'super()' keywords, two 'this()' keywords, both 'super()' and 'this()' keyword are not allowed. We can only use it one at a time.
+
+If the variable names have different names 'this' and 'super' keyword is not required. If the variable names have same names 'this' and 'super' keyword is required( while using them inside the method).
+
 
 
 
