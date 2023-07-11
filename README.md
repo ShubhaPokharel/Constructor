@@ -256,7 +256,27 @@ Inside the consructor, two 'super()' keywords, two 'this()' keywords, both 'supe
 If the variable names have different names 'this' and 'super' keyword is not required. If the variable names have same names 'this' and 'super' keyword is required( while using them inside the method).
 
 
+In inheritance if we do not provide 'this' or 'super' keyword, the compiler will generate the 'super()' keyword automatically. 
 
+**********
+
+There are two types of object - 
+
+1 . Named object
+
+- Named object is an object with the reference variable.
+
+ Ex:
+
+  Test t = new Test();
+
+ 2. Nameless object
+
+- Name less object is an object without a reference variable.
+
+  Ex:
+
+  new Test();
 
 
 
