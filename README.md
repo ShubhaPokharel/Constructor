@@ -279,5 +279,9 @@ There are two types of object -
   new Test();
 
 
+__________________
 
+## Private Constructor
+
+Whenever you apply the private modifier in a Constructor you can only access the constructor with in the class. But the object can not be created when we have a private constructor.
 
